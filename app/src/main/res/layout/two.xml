@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b7b4b4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ЭГЭ по Истории"
+            android:id="@+id/textView"
+            android:autoText="false"
+            android:gravity="center"
+            android:textColor="#fc0505"
+            android:ellipsize="start"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="bottom">
+        <Button
+            android:id="@+id/but2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#454efc"
+            android:text="ДАТЫ"
+            android:textColor="#fcfbfb"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp">
+        </Button>
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#454efc"
+            android:textColor="#fcfbfb"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="ТЕРМИНЫ">
+        </Button>
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fcfbfb"
+            android:background="#535bfb"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="ТАБЛИЦЫ"
+            >
+        </Button>
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="match_parent"
+            android:background="#535bfb"
+            android:textColor="#fcfbfb"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="ОНЛАЙН-ПОДГОТОВКА">
+        </Button>
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fcfbfb"
+            android:background="#5961fb"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="УЧЕБНИК">
+        </Button>
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#5961fb"
+            android:textColor="#fcfbfb"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="ИСТОРИЧЕСКИЕ ПОРТРЕТЫ">
+        </Button>
+        <Button
+            android:id="@+id/bt7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fcfbfb"
+            android:background="#5860fd"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="АРХИТЕКТУРА">
+        </Button>
+        <Button
+            android:id="@+id/bt8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fcfbfb"
+            android:background="#6a71fb"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="КАРТЫ">
+        </Button>
+        <Button
+            android:id="@+id/bt9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fcfbfb"
+            android:background="#6a71fb"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="ВОЗОБНОВЛЕНИЕ ПОКУПКИ">
+        </Button>
+        <Button
+            android:id="@+id/bt10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6a71fb"
+            android:textColor="#fcfbfb"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="ПОЛНАЯ ВЕРСИЯ"
+            >
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <FrameLayout
+            android:id="@+id/frameLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center">
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableLayout
+
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+                    <Button
+                        android:layout_width="75dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/kn1"
+                        android:id="@+id/bt1"
+                        android:maxHeight="30dp"
+                        android:maxLength="30"
+                        android:longClickable="false"
+                        android:layout_marginLeft="5dp">
+                    </Button>
+                    <Button
+                        android:layout_width="75dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/math"
+                        android:id="@+id/bt2"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp">
+                    </Button>
+                    <Button
+                        android:layout_width="75dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/chemistry"
+                        android:id="@+id/bt3">
+                    </Button>
+                    <Button
+                        android:layout_width="75dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/user"
+                        android:id="@+id/bt4"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp">
+                    </Button>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+                    <TextView
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="10dp"
+                        android:text="history"
+                        />
+                    <TextView
+
+                        android:layout_height="wrap_content"
+                        android:text="math"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <TextView
+
+                        android:layout_height="wrap_content"
+                        android:text="chemistry"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <TextView
+
+                        android:layout_height="wrap_content"
+                        android:text="literatura"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        />
+
+
+                </TableRow>
+
+
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <Button
+                        android:layout_width="75dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/kn1"
+                        android:id="@+id/bt5"
+                        android:layout_marginLeft="5dp">
+                    </Button>
+                    <Button
+                        android:layout_width="75dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/kn1"
+                        android:id="@+id/bt6"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        >
+                    </Button>
+                    <Button
+                        android:layout_width="75dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/kn1"
+                        android:id="@+id/bt7">
+                    </Button>
+                    <Button
+                        android:layout_width="75dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/kn1"
+                        android:id="@+id/bt8"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp">
+                    </Button>
+
+                </TableRow>
+                <TableRow android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <Button
+                        android:layout_width="75dp"
+                        android:layout_height="70dp"
+                        android:id="@+id/bt9"
+                        android:singleLine="false"
+
+                        android:background="@drawable/kn1">
+                    </Button>
+                    <Button
+                        android:layout_width="75dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/kn1"
+                        android:id="@+id/bt10"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp">
+                    </Button>
+                    <Button
+                        android:layout_width="75dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/kn1"
+                        android:id="@+id/bt11"
+                        android:ellipsize="marquee">
+                    </Button>
+                    <Button
+                        android:layout_width="75dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/kn1"
+                        android:id="@+id/bt12"
+                        android:ellipsize="marquee">
+                    </Button>
+                </TableRow>
+
+
+            </TableLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <FrameLayout
+            android:id="@+id/frameLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:layout_marginLeft="5dp"
+                android:text="Купить полную версию www.kupit.polnuversion/add"
+                android:layout_gravity="center">
+                </TextView>
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
